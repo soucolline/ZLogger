@@ -1,7 +1,7 @@
 PODS:
   - Nimble (7.0.2)
   - Quick (1.2.0)
-  - ZLogger (0.1.0)
+  - ZLogger (1.0.0)
 
 DEPENDENCIES:
   - Nimble (~> 7.0.2)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  ZLogger: deaabbc774489a9cdf2748b42ac903e7d3f0a693
+  ZLogger: c225796a720210a3f2d43ad45bc29ed3876552e8
 
 PODFILE CHECKSUM: b9a5c3dcc2194186f27858c4a5b2866acb157f9c
 
