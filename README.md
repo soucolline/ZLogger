@@ -9,7 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -20,9 +19,19 @@ it, simply add the following line to your Podfile:
 pod 'ZLogger'
 ```
 
+## How to use
+
+To print a message simply use `ZLogger.log(message: String, event: LogEvent)`<br>
+ZLogger comes with 3 levels of log severity of type LogEvent : .info, .warning, .error
+
+By default ZLogger will display every message but you can filter them using `ZLogger.filter` method which requires a LogEvent<br>
+`LogEvent.info` will display every message<br>
+`LogEvent.warning` will display .error and .warning<br>
+`LogEvent.error` will only display .error<br>
+
 ## Author
 
-soucolline, guilleminot.thomas@gmail.com
+Zlatan, guilleminot.thomas@gmail.com
 
 ## License
 
