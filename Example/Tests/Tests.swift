@@ -2,7 +2,8 @@
 
 import Quick
 import Nimble
-import ZLogger
+
+@testable import ZLogger
 
 class TableOfContentsSpec: QuickSpec {
   override func spec() {

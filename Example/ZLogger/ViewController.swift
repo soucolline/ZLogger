@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ZLogger
 
 class ViewController: UIViewController {
 
