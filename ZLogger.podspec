@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZLogger'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Light, magical, easy to use Logger for your swift apps.'
 
   s.description      = <<-DESC
@@ -16,6 +16,7 @@ with different levels of criticity and filter those messages to only show what's
   s.social_media_url = 'https://twitter.com/mrsoucolline'
 
   s.ios.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
   s.source_files = 'ZLogger/Classes/**/*'
   
