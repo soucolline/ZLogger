@@ -1,9 +1,9 @@
 //
 //  LogEvent.swift
-//  PlayerCore
+//  ZLogger
 //
 //  Created by Zlatan on 12/10/2017.
-//  Copyright © 2017 eTF1. All rights reserved.
+//  Copyright © 2017 Thomas Guilleminot. All rights reserved.
 //
 
 import Foundation
