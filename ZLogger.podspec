@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZLogger'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Light, magical, easy to use Logger for your swift apps.'
 
   s.description      = <<-DESC
