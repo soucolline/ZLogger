@@ -1,6 +1,0 @@
-framework module ZLogger {
-  umbrella header "ZLogger-umbrella.h"
-
-  export *
-  module * { export * }
-}
