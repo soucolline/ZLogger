@@ -23,6 +23,7 @@
 		3D9C432E2274629C000A6585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C432C2274629C000A6585 /* LaunchScreen.storyboard */; };
 		3D9C433422746323000A6585 /* ZLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* ZLogger.framework */; };
 		3D9C433522746323000A6585 /* ZLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* ZLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9ED4EC222D238CB00A9983B /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED4EC122D238CB00A9983B /* LogEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		3D9C432A2274629C000A6585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9C432D2274629C000A6585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9C432F2274629C000A6585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9ED4EC122D238CB00A9983B /* LogEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,9 +206,6 @@
 				3D9C42D822745DAF000A6585 /* .jazzy.yaml */,
 				3D9C42DA22745DB0000A6585 /* .swift-version */,
 				3D9C42D922745DAF000A6585 /* .swiftlint.yml */,
-				3DB91AC4229AC263002668DA,
-				3DB91AC5229AC26C002668DA,
-				3DB91AC6229AC272002668DA,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -215,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				3D9C42A122745900000A6585 /* ZLogger.swift */,
+				E9ED4EC122D238CB00A9983B /* LogEvent.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -635,6 +635,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42A222745900000A6585 /* ZLogger.swift in Sources */,
+				E9ED4EC222D238CB00A9983B /* LogEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

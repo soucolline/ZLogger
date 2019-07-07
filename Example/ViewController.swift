@@ -13,31 +13,40 @@ import ZLogger
 
 /// The ViewController
 class ViewController: UIViewController {
-
-    // MARK: Properties
+  
+  // MARK: Properties
+  
+  /// The Label
+  lazy var label: UILabel = {
+    let label = UILabel()
+    label.text = "🚀\nZLogger\nExample"
+    label.font = .systemFont(ofSize: 25, weight: .semibold)
+    label.numberOfLines = 0
+    label.lineBreakMode = .byWordWrapping
+    label.textAlignment = .center
+    return label
+  }()
+  
+  // MARK: View-Lifecycle
+  
+  /// View did load
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    self.view.backgroundColor = .white
     
-    /// The Label
-    lazy var label: UILabel = {
-        let label = UILabel()
-        label.text = "🚀\nZLogger\nExample"
-        label.font = .systemFont(ofSize: 25, weight: .semibold)
-        label.numberOfLines = 0
-        label.lineBreakMode = .byWordWrapping
-        label.textAlignment = .center
-        return label
-    }()
+    ZLogger.log(message: "I am an info log", event: .info)
+    ZLogger.info(message: "I am an info log")
     
-    // MARK: View-Lifecycle
+    ZLogger.log(message: "I am a warning log", event: .warning)
+    ZLogger.warning(message: "I am a warning log")
     
-    /// View did load
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = .white
-    }
-    
-    /// LoadView
-    override func loadView() {
-        self.view = self.label
-    }
-
+    ZLogger.log(message: "I am an error log", event: .error)
+    ZLogger.error(message: "I am an error log")
+  }
+  
+  /// LoadView
+  override func loadView() {
+    self.view = self.label
+  }
+  
 }
