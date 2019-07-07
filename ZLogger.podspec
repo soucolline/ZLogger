@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = "ZLogger"
-  s.version                   = "1.0.2"
+  s.version                   = "1.1.0"
   s.summary                   = "Light, magical, easy to use Logger for your swift apps."
   s.description      = <<-DESC
 Zlogger is a simple Logger to use for your swift App. You can print debugs messages
