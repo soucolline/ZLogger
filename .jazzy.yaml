@@ -1,0 +1,7 @@
+# ZLogger document generator jazzy settings
+
+copyright: Copyright 2019 Thomas Guilleminot
+author: Thomas Guilleminot
+xcodebuild_arguments: [-target, ZLogger-iOS]
+clean: true
+output: ./Documentation
