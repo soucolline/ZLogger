@@ -7,7 +7,7 @@ Zlogger is a simple Logger to use for your swift App. You can print debugs messa
 with different levels of criticity and filter those messages to only show what's relevant to you
 DESC
 
-  s.homepage                  = "git@github.com:soucolline/ZLogger"
+  s.homepage                  = "https://github.com/soucolline/ZLogger.git"
   s.license                   = { :type => "MIT", :file => "LICENSE" }
   s.author                    = { "Thomas Guilleminot" => "guilleminot.thomas@gmail.com" }
   s.source                    = { :git => "git@github.com:soucolline/ZLogger.git", :tag => s.version.to_s }
