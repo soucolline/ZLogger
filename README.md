@@ -23,12 +23,22 @@
 # ZLogger
 
 <p align="center">
-ℹ️ Short description of ZLogger
+Light, magical, easy to use Logger for your swift apps.
 </p>
 
-## Features
+## Usage
 
-- [x] ℹ️ Add ZLogger features
+To print an `Info` ℹ️ use ```ZLogger.info(message:)```  
+To print a `Warning` ⚠️ use ```ZLogger.warning(message:)```  
+To print an `Error` ‼️ use ```ZLogger.error(message:)```  
+
+ZLogger comes with 3 levels of log severity of type LogEvent : `.info`, `.warning`, `.error`
+
+By default ZLogger will display every message but you can filter them using `ZLogger.filter` variable which requires a `LogEvent` enum  
+
+`LogEvent.info` will display every message  
+`LogEvent.warning` will display `.error` and `.warning`  
+`LogEvent.error` will only display `.error`
 
 ## Example
 
@@ -52,10 +62,10 @@ pod 'ZLogger'
 To integrate ZLogger into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "Thomas Guilleminot/ZLogger"
+github "Soucolline/ZLogger"
 ```
 
-Run `carthage update` to build the framework and drag the built `ZLogger.framework` into your Xcode project. 
+Run `carthage update` to build the framework and drag the built `ZLogger.framework` into your Xcode project.
 
 On your application targets’ “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase” and add the Framework path as mentioned in [Carthage Getting started Step 4, 5 and 6](https://github.com/Carthage/Carthage/blob/master/README.md#if-youre-building-for-ios-tvos-or-watchos)
 
@@ -65,20 +75,13 @@ To integrate using Apple's [Swift Package Manager](https://swift.org/package-man
 
 ```swift
 dependencies: [
-    .package(url: "git@github.com:soucolline/ZLogger.git", from: "1.0.0")
+    .package(url: "git@github.com:soucolline/ZLogger.git", from: "1.0.2")
 ]
 ```
 
 ### Manually
 
 If you prefer not to use any of the aforementioned dependency managers, you can integrate ZLogger into your project manually. Simply drag the `Sources` Folder into your Xcode project.
-
-## Usage
-
-ℹ️ Describe the usage of your Kit
-
-## Contributing
-Contributions are very welcome 🙌
 
 ## License
 
