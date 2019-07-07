@@ -24,6 +24,9 @@
 		3D9C433422746323000A6585 /* ZLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* ZLogger.framework */; };
 		3D9C433522746323000A6585 /* ZLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* ZLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E9ED4EC222D238CB00A9983B /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED4EC122D238CB00A9983B /* LogEvent.swift */; };
+		E9F7AF1A22D23EC100D86B73 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED4EC122D238CB00A9983B /* LogEvent.swift */; };
+		E9F7AF1B22D23EC200D86B73 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED4EC122D238CB00A9983B /* LogEvent.swift */; };
+		E9F7AF1C22D23EC200D86B73 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED4EC122D238CB00A9983B /* LogEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -644,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42B1227459C1000A6585 /* ZLogger.swift in Sources */,
+				E9F7AF1A22D23EC100D86B73 /* LogEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42BF227459F6000A6585 /* ZLogger.swift in Sources */,
+				E9F7AF1B22D23EC200D86B73 /* LogEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +665,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42CD22745A28000A6585 /* ZLogger.swift in Sources */,
+				E9F7AF1C22D23EC200D86B73 /* LogEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
